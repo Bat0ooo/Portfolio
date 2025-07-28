@@ -429,7 +429,6 @@ header {
   }
 }
 
-
 #Experiences {
   padding: 80px 20px;
   background-color: #fdf9f3;
@@ -454,7 +453,7 @@ header {
   background: white;
   padding: 25px 30px;
   border-left: 5px solid #4e77af;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
 }
 
@@ -482,4 +481,23 @@ header {
 .experience-card em {
   font-style: italic;
   font-weight: 500;
+}
+
+.retour-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.retour-btn:hover {
+  background-color: #1b2d45;
 }
